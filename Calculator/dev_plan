@@ -12,3 +12,16 @@ STATUS: planned.
 
 5. Indicate whether there are missing parentheses, and how many there are.
 STATUS: planned.
+
+6. Bug: entering an extra closing parenthesis will clear everything.
+STATUS: planned.
+
+7. Bug: undoing an operand doesn't function correctly.
+STATUS: planned.
+
+8. Bug: adding a minus sign to an operand, which is not the first operand being added to the current program, results in problem when deleting digits of the operand.
+STATUS: planned.
+
+9. Calculator delivers the state of the program: whether it is expecting an operand or an operator.
+STATUS: planned.
+
