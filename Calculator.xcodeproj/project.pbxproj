@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BF8589CC152849C60030FA19 /* dev_plan in Resources */ = {isa = PBXBuildFile; fileRef = BF8589CB152849C60030FA19 /* dev_plan */; };
 		BFE9858314DD96C600D881A9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFE9858214DD96C600D881A9 /* UIKit.framework */; };
 		BFE9858514DD96C600D881A9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFE9858414DD96C600D881A9 /* Foundation.framework */; };
 		BFE9858714DD96C600D881A9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFE9858614DD96C600D881A9 /* CoreGraphics.framework */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BF8589CB152849C60030FA19 /* dev_plan */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = dev_plan; sourceTree = "<group>"; };
 		BFE9857E14DD96C600D881A9 /* Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Calculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFE9858214DD96C600D881A9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		BFE9858414DD96C600D881A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -88,6 +90,7 @@
 				BFE9859714DD96C600D881A9 /* CalculatorViewController.h */,
 				BFE9859814DD96C600D881A9 /* CalculatorViewController.m */,
 				BFE9858914DD96C600D881A9 /* Supporting Files */,
+				BF8589CB152849C60030FA19 /* dev_plan */,
 			);
 			path = Calculator;
 			sourceTree = "<group>";
@@ -155,6 +158,7 @@
 			files = (
 				BFE9858D14DD96C600D881A9 /* InfoPlist.strings in Resources */,
 				BFE9859614DD96C600D881A9 /* MainStoryboard.storyboard in Resources */,
+				BF8589CC152849C60030FA19 /* dev_plan in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +284,7 @@
 				BFE9859E14DD96C600D881A9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

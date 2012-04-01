@@ -1,0 +1,14 @@
+1. After a unary operator is added, a user shouldn't be able to enter a number.
+STATUS: in progress.
+
+2. Bug: entering a left parenthesis at the beginning leads to errors.
+STATUS: planned.
+
+3. When the result of a program is shown, also show the program itself.
+STATUS: planned.
+
+4. When a program is still partial (e.g. not all opening parentheses are closed), complete the program automatically with closing parentheses and 0 as default values for missing operands.
+STATUS: planned.
+
+5. Indicate whether there are missing parentheses, and how many there are.
+STATUS: planned.
