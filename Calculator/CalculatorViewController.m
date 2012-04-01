@@ -127,13 +127,6 @@
             }
         }
     }
-    else if ([currentDigit isEqualToString:@"("] || [currentDigit isEqualToString:@")"]) {
-        if (!self.waitingForVariableValues) {
-            [self.calculator addOperator:currentDigit];
-            id program = self.calculator.program;
-            [self updateDisplayWithProgramDescription:[Calculator descriptionOfProgram:program] AndNumberOrVariable:self.currentNumberOrVariable];
-        }
-    }
     else if (!self.userIsEnteringANumber) {
         if (![currentDigit isEqualToString:@"0"]) {
             self.userIsEnteringANumber = YES;
